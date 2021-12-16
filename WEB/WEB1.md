@@ -1,6 +1,32 @@
-This is a summary of the <Life coding - WEB1> course(https://opentutorials.org/course/3084).
+This is my study record after take a class "Life coding - WEB1"(https://opentutorials.org/course/3084).
 
--211214
+# 211214
 ## Revoultionary change
-- People often misunderstand that 
-Important things are difficult, and easy things are trivial.
+
+- People often misunderstand that 'Important things are difficult, and easy things are trivial.'
+- Because easy things don't appear on the test, people misunderstand like that.
+- However, it is a wrong idea. Learng at first is easy but important. This is because it is the most frequently used part and is a method of combining the parts to create a new finished product.
+![image](https://user-images.githubusercontent.com/95961223/146355600-44599f65-4e79-4711-9aa1-7b3fb3fa60cf.png)
+
+
+## Learning based on statistics
+- Suppose it's 20 years ago, and we don't know about h1 tag so we are trying to figure it out.
+> We have to drive to the library for 1H, look for books for 20min, and look for h1 tag for 5min. It would have taken another hour to come back.
+> People who lived in these times would have to live with all their knowledge in their heads because they didn't know what they needed to do when they were trying to do something.
+> In this era, this way of studying would have been natural.
+
+- But today, it takes less than a minute to search what we don't know.
+- If it takes less than a minute to figure out some information, it's like we already know that.
+- So if we know what 'tag' is, it's like we already know about all the tags.
+- However, if we don't know any tags, it's hard to code.
+- HTML has more than 150 tags, so we need to know some tags that are good to know as the base.
+
+
+## Statistical learning
+To sort out the tags that are good to know as the base, let's see the graph below.
+![image](https://user-images.githubusercontent.com/95961223/146356611-1acf2ad8-5959-4acd-9fb0-8c43c8be51e5.png)
+![image](https://user-images.githubusercontent.com/95961223/146356627-4b650c91-160a-40b4-ac9e-52b7a84e3562.png)
+
+(source: https://advancedwebranking.com/html/)
+
+By checking the statistical data, we can set our own study direction.
