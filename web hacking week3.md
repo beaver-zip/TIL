@@ -57,30 +57,37 @@ Session을 Cookie 대신 커스텀 헤더를 사용해 사용자를 인증한다
  
 
 ### SQL Injection 취약점이 발생시 공격법
+<br>
+
 **Logic**
+
  and, or 와 같은 Logic을 이용한 공격이다.
  and 연산자는 첫 번째 피연산자가 True일 경우에만 두 번째 피연산자를 연산한다는 특징,
  그리고 or 연산자는 첫 번째 피연산자가 False일 경우에만 두 번째 피연산자를 연산한다는 특징을
  활용해 SQL Injection 공격을 수행할 수 있다.
 
 **Union**
- 양쪽의 결과를 결합해주는 Union 명령어를 이용한 공격이다.
- 왼쪽의 결과가 화면에 나온다면, 오른쪽에 공격자가 임의의 Query를 생성하고 이 결과가 결합되면서
- 같이 화면에 나오는 점을 이용해 SQL Injection 공격을 수행할 수 있다.
- (id 출력하는 곳에 union select upw from users 를 붙인다면 pw가 같이 출력되도록 할 수 있다.)
- 그러나, 반드시 왼쪽 결과의 Column수와 Column Type이 오른쪽 결과와 동일해야한다.
 
+ 양쪽의 결과를 결합해주는 Union 명령어를 이용한 공격이다.
+ 왼쪽의 결과가 화면에 나온다면, 오른쪽에 공격자가 임의의 Query를 생성하고 이 결과가 결합되면서 같이 화면에 나오는 점을 이용해 SQL Injection 공격을 수행할 수 있다.
 
 **Subquery**
+
   Select절, From절, Where절에 사용되는 SubQuery를 사용해 SQL Injection 공격을 수행한다.
 
- 
+<br>
+
 ### SQL Injection 취약점이 발생했을 때 상황별 접근법
+<br>
+
+
 **Error Based**
+
  임의로 에러를 발생시켜 정보를 획득하는 공격 기법이다. SQL Injection이 발생했을 때 결과가 나오지는 않지만 Query문에 Error가 발생했을 때 공격자에게 이 Error가 노출되는 상황에 사용이 가능하다.
  (Syntax Error가 아니라 Runtime중에 발생하는 Error가 필요하다.)
 
 **Blind**
+
  DB 조회 후 결과를 공격자가 직접 확인할 수 없는 상황에서 사용되는 SQL Injection 공격기법이다.
  1. 데이터를 비교해 참/거짓을 구분한다.
  2. 참/거짓의 결과에 따른 특별한 응답을 생성한다.
